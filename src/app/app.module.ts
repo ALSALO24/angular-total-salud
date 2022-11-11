@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './Total Salud/home/home.component';
 import { NavbarComponent } from './Total Salud/navbar/navbar.component';
 import { CarruselComponent } from './Total Salud/carrusel/carrusel.component';
+import { FooterComponent } from './Total Salud/footer/footer.component';
+import { TrayectoriaComponent } from './Total Salud/trayectoria/trayectoria.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    CarruselComponent
+    CarruselComponent,
+    FooterComponent,
+    TrayectoriaComponent
   ],
   imports: [
     BrowserModule,

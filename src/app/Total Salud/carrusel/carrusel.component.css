@@ -1,0 +1,47 @@
+.container {
+    padding-top: 3em;
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 11em;
+}
+#botones-card {
+   
+    display: flex;
+    flex-direction: column;
+    width: 17.1em;
+    height: 8.7em;
+    margin-left: .7em;
+    background: steelblue;
+    border: #4a4b4b;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+#botones-card a{
+    background: #3390e1;
+}
+.section-tittle {
+    color: white;
+}
+.carousel {
+    margin-top: 1.5em;
+    margin-left: 12.5em;
+    
+}
+
+  .carousel, .carousel-inner > .carousel-item > img  {
+    width: 52%;
+    height: 70%;
+    border-radius: 7px;
+    height: 450px;
+  }
+
+#botones-card svg {
+    width: 5em;
+    height: 3.5em;
+    color: aliceblue;
+    
+}
+
