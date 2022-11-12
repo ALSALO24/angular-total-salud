@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { IvyCarouselModule } from 'angular-responsive-carousel';
+
 
 @Component({
   selector: 'app-carrusel',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarruselComponent implements OnInit {
 
-  constructor() { }
+  
+
+  constructor(
+
+  ) { }
 
   ngOnInit(): void {
+
   }
 
 }

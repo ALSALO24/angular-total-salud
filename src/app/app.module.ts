@@ -8,6 +8,7 @@ import { NavbarComponent } from './Total Salud/navbar/navbar.component';
 import { CarruselComponent } from './Total Salud/carrusel/carrusel.component';
 import { FooterComponent } from './Total Salud/footer/footer.component';
 import { TrayectoriaComponent } from './Total Salud/trayectoria/trayectoria.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
@@ -16,11 +17,12 @@ import { TrayectoriaComponent } from './Total Salud/trayectoria/trayectoria.comp
     NavbarComponent,
     CarruselComponent,
     FooterComponent,
-    TrayectoriaComponent
+    TrayectoriaComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
