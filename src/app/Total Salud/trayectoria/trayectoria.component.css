@@ -1,3 +1,6 @@
+*{
+   padding-top: .3em;
+}
 body {
    font-family: 'Source Sans Pro',Helvetica Neue,Helvetica,Arial,sans-serif;
    font-size: 16px;
@@ -6,6 +9,8 @@ body {
 #timeline {
    display: flex;
    background-color: #031625;
+   border-top: 5px solid rgb(227, 227, 224);
+   border-bottom: 5px solid rgb(227, 227, 224);
 }
 #timeline:hover .tl-item {
    width: 23.3333%;
@@ -66,19 +71,19 @@ body {
    z-index: 1;
    text-align: center;
    margin: 0 1.618em;
-   top: 55%;
+   top: 40%;
    opacity: 0;
 }
 .tl-content h1 {
    font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
    text-transform: uppercase;
-   color: #1779cf;
+   color: #53AE42;
    font-size: 1.44rem;
    font-weight: normal;
 }
 .tl-year {
    position: absolute;
-   top: 50%;
+   top: 10%;
    left: 50%;
    transform: translateX(-50%) translateY(-50%);
    z-index: 1;
