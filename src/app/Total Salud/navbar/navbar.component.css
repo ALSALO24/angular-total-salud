@@ -1,0 +1,14 @@
+a{
+    margin: 10px;
+    color: black;
+    font-weight: 700;
+}
+.nav-link{
+    background: #65C639;
+    border-radius: 7px;
+}
+.nav-link:hover{
+    color: black;
+    background: azure;
+    border-radius: 7px;
+}
