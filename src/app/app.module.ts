@@ -9,6 +9,8 @@ import { FooterComponent } from './Total Salud/footer/footer.component';
 import { TrayectoriaComponent } from './Total Salud/trayectoria/trayectoria.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { TopHeadComponent } from './Total Salud/top-head/top-head.component';
+import { ConveniosComponent } from './Total Salud/convenios/convenios.component';
+import { AboutUsComponent } from './Total Salud/about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { TopHeadComponent } from './Total Salud/top-head/top-head.component';
     CarruselComponent,
     FooterComponent,
     TrayectoriaComponent,
-    TopHeadComponent
+    TopHeadComponent,
+    ConveniosComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

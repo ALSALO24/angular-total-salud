@@ -1,6 +1,6 @@
 a{
     margin: 10px;
-    color: white;
+    color: black;
     font-weight: 700;
     letter-spacing: 1.5px;
 }
@@ -11,4 +11,15 @@ a{
     color: black;
     background: azure;
     border-radius: 7px;
+}
+
+.divnav{
+    padding-left:15% ; 
+    padding-right:15% ;
+    background: whitesmoke;
+    
+}
+
+nav{
+    box-shadow:  2px 2px 5px #999;
 }
