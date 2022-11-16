@@ -11,6 +11,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { TopHeadComponent } from './Total Salud/top-head/top-head.component';
 import { ConveniosComponent } from './Total Salud/convenios/convenios.component';
 import { AboutUsComponent } from './Total Salud/about-us/about-us.component';
+import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AboutUsComponent } from './Total Salud/about-us/about-us.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
+    MdbCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
