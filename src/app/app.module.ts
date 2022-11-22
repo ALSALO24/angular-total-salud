@@ -12,6 +12,12 @@ import { TopHeadComponent } from './Total Salud/top-head/top-head.component';
 import { ConveniosComponent } from './Total Salud/convenios/convenios.component';
 import { AboutUsComponent } from './Total Salud/about-us/about-us.component';
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
+import { UbicacionComponent } from './Total Salud/ubicacion/ubicacion.component';
+import { ComunidadComponent } from './Total Salud/comunidad/comunidad.component';
+import { AvisoPComponent } from './Total Salud/aviso-p/aviso-p.component';
+import { EstudiosComponent } from './Total Salud/estudios/estudios.component';
+import { MainVideosComponent } from './Total Salud/main-videos/main-videos.component';
+import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 
 @NgModule({
   declarations: [
@@ -23,13 +29,20 @@ import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
     TrayectoriaComponent,
     TopHeadComponent,
     ConveniosComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    UbicacionComponent,
+    ComunidadComponent,
+    AvisoPComponent,
+    EstudiosComponent,
+    MainVideosComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CarouselModule.forRoot(),
-    MdbCarouselModule
+    MdbCarouselModule,
+    NgxPageScrollCoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

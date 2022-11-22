@@ -10,8 +10,18 @@ h6{
 
 a{
     color: white;
+    text-align: center !important;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(159, 159, 159) !important;
 }
 
 p{
-    color: white;
+    color: rgb(194, 194, 194);
+}
+
+hr{
+   margin-top: 18px !important;
 }

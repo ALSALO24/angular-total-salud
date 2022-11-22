@@ -1,3 +1,5 @@
+
+
 .container {
     padding-top: 3em;
     display: flex;
@@ -24,20 +26,15 @@
 .section-tittle {
     color: white;
 }
-.carrusel {
-    margin-top: 1.5em;
-}
 
    img  {
     width: 100%;
-    height: 70%;
-    height: 450px;
+    height: 100% !important;
   }
 
   .carrusel {
     width: 100%;
-    height: 70%;
-    height: 450px;
+    height: 100%;
     margin-top: 0;
   }
 
