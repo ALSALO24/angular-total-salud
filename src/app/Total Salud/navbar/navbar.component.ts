@@ -18,6 +18,10 @@ export class NavbarComponent implements OnInit {
    
   
   }
+
+  recargar(){
+    location.reload()
+  }
    
  
 }

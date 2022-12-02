@@ -7,6 +7,7 @@ import { AboutUsComponent } from './Total Salud/about-us/about-us.component';
 import { UbicacionComponent } from './Total Salud/ubicacion/ubicacion.component';
 import { ComunidadComponent } from './Total Salud/comunidad/comunidad.component';
 import { AvisoPComponent } from './Total Salud/aviso-p/aviso-p.component';
+import { FormWhatsComponent } from './Total Salud/form-whats/form-whats.component';
 
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: 'sobre-nosotros', component: AboutUsComponent},
   {path: 'ubicacion', component: UbicacionComponent},
   {path: 'comunidad', component: ComunidadComponent},
-  {path: 'avisoPrivacidad', component: AvisoPComponent}
+  {path: 'avisoPrivacidad', component: AvisoPComponent},
+  {path: 'facturacion', component: FormWhatsComponent}
 ];
 
 

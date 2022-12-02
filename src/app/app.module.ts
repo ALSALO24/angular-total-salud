@@ -18,6 +18,9 @@ import { AvisoPComponent } from './Total Salud/aviso-p/aviso-p.component';
 import { EstudiosComponent } from './Total Salud/estudios/estudios.component';
 import { MainVideosComponent } from './Total Salud/main-videos/main-videos.component';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import { FormWhatsComponent } from './Total Salud/form-whats/form-whats.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PromocionesComponent } from './Total Salud/promociones/promociones.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +38,8 @@ import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
     AvisoPComponent,
     EstudiosComponent,
     MainVideosComponent,
+    FormWhatsComponent,
+    PromocionesComponent,
     
   ],
   imports: [
@@ -42,7 +47,8 @@ import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
     AppRoutingModule,
     CarouselModule.forRoot(),
     MdbCarouselModule,
-    NgxPageScrollCoreModule
+    NgxPageScrollCoreModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

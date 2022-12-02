@@ -4,7 +4,7 @@ a{
     margin: 10px;
     color: black;
     font-weight: 600;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
 }
 .nav-link{
     border-radius: 7px;
@@ -27,6 +27,8 @@ nav{
     box-shadow:  0px 5px 0px 0px #999;
     border-radius: 70px;
 }
+
+
 
 /* Dropdown Button */
   
@@ -65,3 +67,75 @@ nav{
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
+
+  .btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 4px rgba(0, 0, 0, .3);
+    z-index: 2;
+  }
+  
+  .btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background-color: #fff;
+    z-index: 2;
+  }
+
+  .btn-fac{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 100px;
+    right: 30px;
+    background-color:  #3b5998;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 4px rgba(0, 0, 0, .3);
+    z-index: 2;
+  }
+  
+  .btn-fac:hover{
+    text-decoration: none;
+    color: #3B5998;
+    background-color: #fff;
+    z-index: 2;
+    
+  }
+
+  .btn-inst{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 170px;
+    right: 30px;
+    background-color: #FF0080;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 4px rgba(0, 0, 0, .3);
+    z-index: 2;
+  }
+  
+  .btn-inst:hover{
+    text-decoration: none;
+    color: #FF0080 ;
+    background-color: #fff;
+    z-index: 2;
+  }
+
+  

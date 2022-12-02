@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LazyLoadService } from 'ngx-owl-carousel-o/lib/services/lazyload.service';
 
 @Component({
   selector: 'app-about-us',
@@ -11,5 +12,7 @@ export class AboutUsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+ 
 
 }
